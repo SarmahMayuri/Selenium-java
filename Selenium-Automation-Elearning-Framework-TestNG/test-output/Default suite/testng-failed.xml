@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.ELearning_TC59">
+      <class name="com.training.regression.tests.ELearning_TC89">
         <methods>
-          <include name="toCreateCourse"/>
-          <include name="tearDown"/>
+          <include name="setUpBeforeClass"/>
+          <include name="loginDBTest" invocation-numbers="0"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.ELearning_TC59 -->
+      </class> <!-- com.training.regression.tests.ELearning_TC89 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
